@@ -23,8 +23,9 @@ import android.database.MatrixCursor;
 import android.database.MatrixCursor.RowBuilder;
 import android.net.Uri;
 import android.provider.OpenableColumns;
-import androidx.collection.SimpleArrayMap;
 import android.text.TextUtils;
+
+import androidx.collection.SimpleArrayMap;
 
 import com.android.messaging.BuildConfig;
 import com.android.messaging.Factory;

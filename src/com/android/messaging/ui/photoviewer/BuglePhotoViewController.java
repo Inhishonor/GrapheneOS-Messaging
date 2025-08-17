@@ -31,6 +31,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import androidx.annotation.Nullable;
+import androidx.fragment.app.FragmentManager;
+import androidx.loader.content.Loader;
+
 import com.android.ex.photo.PhotoViewController;
 import com.android.ex.photo.adapters.PhotoPagerAdapter;
 import com.android.ex.photo.loaders.PhotoBitmapLoaderInterface.BitmapResult;
@@ -40,10 +44,6 @@ import com.android.messaging.datamodel.MediaScratchFileProvider;
 import com.android.messaging.ui.conversation.ConversationFragment;
 import com.android.messaging.util.Dates;
 import com.android.messaging.util.LogUtil;
-
-import androidx.annotation.Nullable;
-import androidx.fragment.app.FragmentManager;
-import androidx.loader.content.Loader;
 
 /**
  * Customizations for the photoviewer to display conversation images in full screen.

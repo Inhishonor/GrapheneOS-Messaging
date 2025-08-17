@@ -17,9 +17,10 @@ package com.android.messaging.ui;
 
 import android.os.Bundle;
 import android.os.Parcelable;
-import androidx.viewpager.widget.PagerAdapter;
 import android.view.View;
 import android.view.ViewGroup;
+
+import androidx.viewpager.widget.PagerAdapter;
 
 import com.android.messaging.Factory;
 import com.android.messaging.util.Assert;

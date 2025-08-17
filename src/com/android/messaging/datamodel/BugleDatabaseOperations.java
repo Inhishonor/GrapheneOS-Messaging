@@ -25,6 +25,10 @@ import android.net.Uri;
 import android.os.ParcelFileDescriptor;
 import android.text.TextUtils;
 
+import androidx.annotation.Nullable;
+import androidx.collection.ArrayMap;
+import androidx.collection.SimpleArrayMap;
+
 import com.android.messaging.Factory;
 import com.android.messaging.datamodel.DatabaseHelper.ConversationColumns;
 import com.android.messaging.datamodel.DatabaseHelper.ConversationParticipantsColumns;
@@ -52,11 +56,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
-
-import androidx.annotation.Nullable;
-
-import androidx.collection.ArrayMap;
-import androidx.collection.SimpleArrayMap;
 
 
 /**

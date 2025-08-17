@@ -18,13 +18,13 @@ package com.android.messaging.ui.conversationlist;
 
 import android.content.Context;
 import android.database.Cursor;
-import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.android.messaging.R;
 import com.android.messaging.ui.CursorRecyclerAdapter;
-import com.android.messaging.ui.conversationlist.ConversationListItemView.HostInterface;
 
 /**
  * Provides an interface to expose Conversation List Cursor data to a UI widget like a ListView.

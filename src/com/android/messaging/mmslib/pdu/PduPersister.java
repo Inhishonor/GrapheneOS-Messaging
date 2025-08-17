@@ -37,6 +37,9 @@ import android.util.Log;
 import android.util.SparseArray;
 import android.util.SparseIntArray;
 
+import androidx.collection.ArrayMap;
+import androidx.collection.SimpleArrayMap;
+
 import com.android.messaging.mmslib.InvalidHeaderValueException;
 import com.android.messaging.mmslib.MmsException;
 import com.android.messaging.mmslib.SqliteWrapper;
@@ -60,9 +63,6 @@ import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Map;
-
-import androidx.collection.ArrayMap;
-import androidx.collection.SimpleArrayMap;
 
 /**
  * This class is the high-level manager of PDU storage.

@@ -20,7 +20,6 @@ import android.util.AttributeSet;
 import android.view.Gravity;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.LinearLayout.LayoutParams;
 import android.widget.TextView;
 
 import com.android.messaging.R;

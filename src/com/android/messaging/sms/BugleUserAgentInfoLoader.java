@@ -20,12 +20,12 @@ import android.content.Context;
 import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 
+import androidx.appcompat.mms.UserAgentInfoLoader;
+
 import com.android.messaging.util.BugleGservices;
 import com.android.messaging.util.BugleGservicesKeys;
 import com.android.messaging.util.LogUtil;
 import com.android.messaging.util.VersionUtil;
-
-import androidx.appcompat.mms.UserAgentInfoLoader;
 
 /**
  * User agent and UA profile URL loader

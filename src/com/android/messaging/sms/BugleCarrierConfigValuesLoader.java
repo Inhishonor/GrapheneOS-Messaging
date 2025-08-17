@@ -23,11 +23,11 @@ import android.content.res.XmlResourceParser;
 import android.os.Bundle;
 import android.util.SparseArray;
 
+import androidx.appcompat.mms.CarrierConfigValuesLoader;
+
 import com.android.messaging.R;
 import com.android.messaging.util.LogUtil;
 import com.android.messaging.util.PhoneUtils;
-
-import androidx.appcompat.mms.CarrierConfigValuesLoader;
 
 /**
  * Carrier configuration loader

@@ -18,6 +18,7 @@ package com.android.messaging.ui.photoviewer;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
+
 import androidx.loader.content.AsyncTaskLoader;
 
 import com.android.ex.photo.PhotoViewController;

@@ -21,10 +21,11 @@ import android.database.ContentObserver;
 import android.database.Cursor;
 import android.database.DataSetObserver;
 import android.os.Handler;
-import androidx.recyclerview.widget.RecyclerView;
 import android.util.Log;
 import android.view.ViewGroup;
 import android.widget.FilterQueryProvider;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * Copy of CursorAdapter suited for RecyclerView.

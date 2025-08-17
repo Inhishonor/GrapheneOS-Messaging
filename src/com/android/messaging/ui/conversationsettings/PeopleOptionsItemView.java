@@ -17,12 +17,13 @@ package com.android.messaging.ui.conversationsettings;
 
 import android.content.Context;
 import android.database.Cursor;
-import androidx.appcompat.widget.SwitchCompat;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import androidx.appcompat.widget.SwitchCompat;
 
 import com.android.messaging.R;
 import com.android.messaging.datamodel.DataModel;

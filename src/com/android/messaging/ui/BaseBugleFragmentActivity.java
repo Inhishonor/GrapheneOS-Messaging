@@ -16,8 +16,6 @@
 
 package com.android.messaging.ui;
 
-import android.app.Activity;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.android.messaging.util.BugleActivityUtil;

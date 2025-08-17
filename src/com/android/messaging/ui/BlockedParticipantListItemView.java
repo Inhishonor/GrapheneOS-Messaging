@@ -20,11 +20,11 @@ import android.util.AttributeSet;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.android.messaging.R;
-import com.android.messaging.datamodel.data.ParticipantListItemData;
-
 import androidx.core.text.BidiFormatter;
 import androidx.core.text.TextDirectionHeuristicsCompat;
+
+import com.android.messaging.R;
+import com.android.messaging.datamodel.data.ParticipantListItemData;
 
 /**
  * View for individual participant in blocked participants list.

@@ -17,6 +17,9 @@
 package com.android.messaging.ui.appsettings;
 
 import android.content.Context;
+import android.text.InputType;
+import android.text.TextUtils;
+import android.util.AttributeSet;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -24,10 +27,6 @@ import androidx.core.text.BidiFormatter;
 import androidx.core.text.TextDirectionHeuristicsCompat;
 import androidx.preference.EditTextPreference;
 import androidx.preference.PreferenceViewHolder;
-
-import android.text.InputType;
-import android.text.TextUtils;
-import android.util.AttributeSet;
 
 import com.android.messaging.R;
 import com.android.messaging.util.PhoneUtils;

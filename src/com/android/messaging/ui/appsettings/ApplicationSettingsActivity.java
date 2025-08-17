@@ -25,14 +25,6 @@ import android.provider.Settings;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.android.messaging.R;
-import com.android.messaging.ui.BugleActionBarActivity;
-import com.android.messaging.ui.LicenseActivity;
-import com.android.messaging.ui.UIIntents;
-import com.android.messaging.util.BuglePrefs;
-import com.android.messaging.util.DebugUtils;
-import com.android.messaging.util.PhoneUtils;
-
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.app.NavUtils;
@@ -40,6 +32,14 @@ import androidx.fragment.app.FragmentTransaction;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.PreferenceScreen;
+
+import com.android.messaging.R;
+import com.android.messaging.ui.BugleActionBarActivity;
+import com.android.messaging.ui.LicenseActivity;
+import com.android.messaging.ui.UIIntents;
+import com.android.messaging.util.BuglePrefs;
+import com.android.messaging.util.DebugUtils;
+import com.android.messaging.util.PhoneUtils;
 
 public class ApplicationSettingsActivity extends BugleActionBarActivity {
     @Override

@@ -21,12 +21,12 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import androidx.appcompat.app.ActionBar;
+
 import com.android.messaging.R;
 import com.android.messaging.ui.UIIntents;
 import com.android.messaging.util.DebugUtils;
 import com.android.messaging.util.Trace;
-
-import androidx.appcompat.app.ActionBar;
 
 public class ConversationListActivity extends AbstractConversationListActivity {
     @Override

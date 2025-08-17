@@ -40,6 +40,11 @@ import android.view.animation.ScaleAnimation;
 import android.widget.RemoteViews;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.android.messaging.Factory;
 import com.android.messaging.R;
 import com.android.messaging.ui.SnackBar;
@@ -50,11 +55,6 @@ import com.android.messaging.ui.UIIntents;
 
 import java.lang.reflect.Field;
 import java.util.List;
-
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.ActionBar;
-import androidx.appcompat.app.AppCompatActivity;
 
 public class UiUtils {
     /** MediaPicker transition duration in ms */

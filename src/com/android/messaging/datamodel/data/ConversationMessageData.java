@@ -23,10 +23,10 @@ import android.text.TextUtils;
 import android.text.format.DateUtils;
 
 import com.android.messaging.datamodel.DatabaseHelper;
+import com.android.messaging.datamodel.DatabaseHelper.ConversationColumns;
 import com.android.messaging.datamodel.DatabaseHelper.MessageColumns;
 import com.android.messaging.datamodel.DatabaseHelper.PartColumns;
 import com.android.messaging.datamodel.DatabaseHelper.ParticipantColumns;
-import com.android.messaging.datamodel.DatabaseHelper.ConversationColumns;
 import com.android.messaging.datamodel.data.ConversationListItemData.ConversationListViewColumns;
 import com.android.messaging.util.Assert;
 import com.android.messaging.util.BugleGservices;

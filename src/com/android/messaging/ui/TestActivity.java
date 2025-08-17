@@ -17,12 +17,12 @@
 package com.android.messaging.ui;
 
 import android.os.Bundle;
-
-import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentActivity;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.FrameLayout;
+
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
 
 import com.android.messaging.R;
 import com.android.messaging.util.LogUtil;

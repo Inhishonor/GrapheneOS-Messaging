@@ -28,7 +28,6 @@ import android.media.MediaRecorder;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Looper;
-import androidx.annotation.NonNull;
 import android.text.TextUtils;
 import android.util.DisplayMetrics;
 import android.view.MotionEvent;
@@ -37,8 +36,9 @@ import android.view.Surface;
 import android.view.View;
 import android.view.WindowManager;
 
+import androidx.annotation.NonNull;
+
 import com.android.messaging.datamodel.data.DraftMessageData.DraftMessageSubscriptionDataProvider;
-import com.android.messaging.Factory;
 import com.android.messaging.datamodel.data.ParticipantData;
 import com.android.messaging.datamodel.media.ImageRequest;
 import com.android.messaging.sms.MmsConfig;

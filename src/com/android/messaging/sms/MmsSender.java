@@ -24,6 +24,8 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.telephony.SmsManager;
 
+import androidx.appcompat.mms.MmsManager;
+
 import com.android.messaging.datamodel.MmsFileProvider;
 import com.android.messaging.datamodel.action.SendMessageAction;
 import com.android.messaging.datamodel.data.MessageData;
@@ -46,8 +48,6 @@ import com.android.messaging.util.PhoneUtils;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
-
-import androidx.appcompat.mms.MmsManager;
 
 /**
  * Class that sends chat message via MMS.

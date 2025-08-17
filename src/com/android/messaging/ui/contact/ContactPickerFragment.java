@@ -35,6 +35,12 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.widget.Toolbar;
+import androidx.appcompat.widget.Toolbar.OnMenuItemClickListener;
+import androidx.fragment.app.Fragment;
+import androidx.loader.app.LoaderManager;
+
 import com.android.messaging.R;
 import com.android.messaging.datamodel.DataModel;
 import com.android.messaging.datamodel.action.ActionMonitor;
@@ -62,12 +68,6 @@ import com.google.common.annotations.VisibleForTesting;
 
 import java.util.ArrayList;
 import java.util.Set;
-
-import androidx.appcompat.app.ActionBar;
-import androidx.appcompat.widget.Toolbar;
-import androidx.appcompat.widget.Toolbar.OnMenuItemClickListener;
-import androidx.fragment.app.Fragment;
-import androidx.loader.app.LoaderManager;
 
 /**
  * Shows lists of contacts to start conversations with.

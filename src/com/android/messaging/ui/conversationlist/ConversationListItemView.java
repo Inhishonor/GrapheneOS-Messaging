@@ -34,6 +34,9 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.core.text.BidiFormatter;
+import androidx.core.text.TextDirectionHeuristicsCompat;
+
 import com.android.messaging.Factory;
 import com.android.messaging.R;
 import com.android.messaging.annotation.VisibleForAnimation;
@@ -57,9 +60,6 @@ import com.android.messaging.util.UiUtils;
 import com.android.messaging.util.UriUtil;
 
 import java.util.List;
-
-import androidx.core.text.BidiFormatter;
-import androidx.core.text.TextDirectionHeuristicsCompat;
 
 /**
  * The view for a single entry in a conversation list.

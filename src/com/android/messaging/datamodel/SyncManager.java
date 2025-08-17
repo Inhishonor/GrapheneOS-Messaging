@@ -22,6 +22,8 @@ import android.database.ContentObserver;
 import android.net.Uri;
 import android.provider.Telephony;
 
+import androidx.collection.LongSparseArray;
+
 import com.android.messaging.datamodel.action.SyncMessagesAction;
 import com.android.messaging.datamodel.data.ParticipantData;
 import com.android.messaging.sms.MmsUtils;
@@ -37,8 +39,6 @@ import com.android.messaging.util.PhoneUtils;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
-
-import androidx.collection.LongSparseArray;
 
 /**
  * This class manages message sync with the Telephony SmsProvider/MmsProvider.

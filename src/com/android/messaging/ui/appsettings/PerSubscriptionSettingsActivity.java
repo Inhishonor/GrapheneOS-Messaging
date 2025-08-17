@@ -25,6 +25,13 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.MenuItem;
 
+import androidx.annotation.Nullable;
+import androidx.core.app.NavUtils;
+import androidx.fragment.app.FragmentTransaction;
+import androidx.preference.Preference;
+import androidx.preference.PreferenceCategory;
+import androidx.preference.PreferenceFragmentCompat;
+
 import com.android.messaging.Factory;
 import com.android.messaging.R;
 import com.android.messaging.datamodel.ParticipantRefresh;
@@ -36,13 +43,6 @@ import com.android.messaging.util.Assert;
 import com.android.messaging.util.BuglePrefs;
 import com.android.messaging.util.LogUtil;
 import com.android.messaging.util.PhoneUtils;
-
-import androidx.annotation.Nullable;
-import androidx.core.app.NavUtils;
-import androidx.fragment.app.FragmentTransaction;
-import androidx.preference.Preference;
-import androidx.preference.PreferenceCategory;
-import androidx.preference.PreferenceFragmentCompat;
 
 public class PerSubscriptionSettingsActivity extends BugleActionBarActivity {
     @Override

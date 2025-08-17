@@ -19,6 +19,8 @@ import android.content.Context;
 import android.content.res.Resources;
 import android.widget.Toast;
 
+import androidx.annotation.Nullable;
+
 import com.android.messaging.Factory;
 import com.android.messaging.R;
 import com.android.messaging.datamodel.DataModel;
@@ -28,8 +30,6 @@ import com.android.messaging.sms.MmsUtils;
 import com.android.messaging.util.AccessibilityUtil;
 import com.android.messaging.util.PhoneUtils;
 import com.android.messaging.util.ThreadUtil;
-
-import androidx.annotation.Nullable;
 
 /**
  * Shows one-time, transient notifications in response to action failures (i.e. permanent failures

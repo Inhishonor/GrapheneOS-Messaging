@@ -24,6 +24,8 @@ import android.os.ParcelFileDescriptor;
 import android.provider.MediaStore;
 import android.text.TextUtils;
 
+import androidx.annotation.NonNull;
+
 import com.android.messaging.Factory;
 import com.android.messaging.datamodel.GalleryBoundCursorLoader;
 import com.android.messaging.datamodel.MediaScratchFileProvider;
@@ -39,8 +41,6 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.util.Arrays;
 import java.util.HashSet;
-
-import androidx.annotation.NonNull;
 
 public class UriUtil {
     private static final String SCHEME_SMS = "sms";

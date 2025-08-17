@@ -18,6 +18,8 @@ package com.android.messaging.ui.conversation;
 import android.content.Context;
 import android.text.TextUtils;
 
+import androidx.core.util.Pair;
+
 import com.android.messaging.Factory;
 import com.android.messaging.R;
 import com.android.messaging.datamodel.data.SubscriptionListData;
@@ -25,8 +27,6 @@ import com.android.messaging.datamodel.data.SubscriptionListData.SubscriptionLis
 import com.android.messaging.ui.conversation.SimSelectorView.SimSelectorViewListener;
 import com.android.messaging.util.AccessibilityUtil;
 import com.android.messaging.util.ThreadUtil;
-
-import androidx.core.util.Pair;
 
 /**
  * Manages showing/hiding the SIM selector in conversation.

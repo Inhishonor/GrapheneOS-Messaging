@@ -21,6 +21,8 @@ import android.view.ActionMode.Callback;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import androidx.collection.ArrayMap;
+
 import com.android.messaging.R;
 import com.android.messaging.datamodel.data.ConversationListData;
 import com.android.messaging.datamodel.data.ConversationListItemData;
@@ -28,8 +30,6 @@ import com.android.messaging.util.Assert;
 
 import java.util.Collection;
 import java.util.HashSet;
-
-import androidx.collection.ArrayMap;
 
 public class MultiSelectActionModeCallback implements Callback {
     private HashSet<String> mBlockedSet;

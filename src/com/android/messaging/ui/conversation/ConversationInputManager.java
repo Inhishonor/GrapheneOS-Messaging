@@ -17,10 +17,10 @@ package com.android.messaging.ui.conversation;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.widget.EditText;
+
 import androidx.appcompat.app.ActionBar;
 import androidx.fragment.app.FragmentManager;
-
-import android.widget.EditText;
 
 import com.android.messaging.R;
 import com.android.messaging.datamodel.binding.BindingBase;

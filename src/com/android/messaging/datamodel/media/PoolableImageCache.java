@@ -19,8 +19,9 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.os.SystemClock;
-import androidx.annotation.NonNull;
 import android.util.SparseArray;
+
+import androidx.annotation.NonNull;
 
 import com.android.messaging.Factory;
 import com.android.messaging.util.Assert;

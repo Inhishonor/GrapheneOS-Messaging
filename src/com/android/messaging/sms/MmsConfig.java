@@ -19,6 +19,8 @@ package com.android.messaging.sms;
 import android.os.Bundle;
 import android.telephony.SubscriptionInfo;
 
+import androidx.appcompat.mms.CarrierConfigValuesLoader;
+
 import com.android.messaging.Factory;
 import com.android.messaging.datamodel.data.ParticipantData;
 import com.android.messaging.util.Assert;
@@ -30,8 +32,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
-
-import androidx.appcompat.mms.CarrierConfigValuesLoader;
 
 /**
  * MMS configuration.

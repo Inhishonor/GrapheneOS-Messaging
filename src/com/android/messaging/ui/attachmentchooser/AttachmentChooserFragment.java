@@ -27,6 +27,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 
+import androidx.appcompat.app.ActionBar;
+import androidx.fragment.app.Fragment;
+
 import com.android.messaging.R;
 import com.android.messaging.datamodel.DataModel;
 import com.android.messaging.datamodel.MessagingContentProvider;
@@ -42,9 +45,6 @@ import com.google.common.annotations.VisibleForTesting;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import androidx.appcompat.app.ActionBar;
-import androidx.fragment.app.Fragment;
 
 public class AttachmentChooserFragment extends Fragment implements DraftMessageDataListener,
         AttachmentGridHost {

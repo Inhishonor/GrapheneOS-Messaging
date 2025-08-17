@@ -18,10 +18,6 @@ package com.android.messaging.ui.appsettings;
 
 import android.content.Context;
 import android.os.Bundle;
-import androidx.core.app.NavUtils;
-import androidx.fragment.app.Fragment;
-import androidx.loader.app.LoaderManager;
-
 import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
@@ -31,6 +27,10 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import androidx.core.app.NavUtils;
+import androidx.fragment.app.Fragment;
+import androidx.loader.app.LoaderManager;
 
 import com.android.messaging.R;
 import com.android.messaging.datamodel.DataModel;

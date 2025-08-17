@@ -24,13 +24,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.SystemClock;
 
+import androidx.core.app.JobIntentService;
+
 import com.android.messaging.Factory;
 import com.android.messaging.datamodel.DataModel;
 import com.android.messaging.util.LogUtil;
 import com.android.messaging.util.LoggingTimer;
 import com.google.common.annotations.VisibleForTesting;
-
-import androidx.core.app.JobIntentService;
 
 /**
  * ActionService used to perform background processing for data model

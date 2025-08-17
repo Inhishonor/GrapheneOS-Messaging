@@ -19,6 +19,7 @@ package com.android.messaging.datamodel.data;
 import android.content.Context;
 import android.database.Cursor;
 import android.os.Bundle;
+
 import androidx.annotation.Nullable;
 import androidx.loader.app.LoaderManager;
 import androidx.loader.content.Loader;

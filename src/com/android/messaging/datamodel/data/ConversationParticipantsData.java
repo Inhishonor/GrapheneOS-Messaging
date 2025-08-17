@@ -17,10 +17,10 @@
 package com.android.messaging.datamodel.data;
 
 import android.database.Cursor;
+
 import androidx.collection.SimpleArrayMap;
 
 import com.android.messaging.util.Assert;
-
 import com.google.common.annotations.VisibleForTesting;
 
 import java.util.ArrayList;

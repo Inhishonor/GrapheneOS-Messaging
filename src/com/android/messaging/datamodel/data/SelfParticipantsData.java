@@ -18,11 +18,11 @@ package com.android.messaging.datamodel.data;
 
 import android.database.Cursor;
 
+import androidx.collection.ArrayMap;
+
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
-
-import androidx.collection.ArrayMap;
 
 /**
  * A class that contains the list of all self participants potentially involved in a conversation.

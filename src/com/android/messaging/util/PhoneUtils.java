@@ -31,6 +31,8 @@ import android.telephony.SubscriptionManager;
 import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 
+import androidx.collection.ArrayMap;
+
 import com.android.messaging.Factory;
 import com.android.messaging.R;
 import com.android.messaging.datamodel.data.ParticipantData;
@@ -44,8 +46,6 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Locale;
-
-import androidx.collection.ArrayMap;
 
 /**
  * This class abstracts away platform dependency of calling telephony related

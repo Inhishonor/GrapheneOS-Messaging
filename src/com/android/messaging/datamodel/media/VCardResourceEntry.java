@@ -22,8 +22,9 @@ import android.net.Uri;
 import android.provider.ContactsContract.CommonDataKinds.Im;
 import android.provider.ContactsContract.CommonDataKinds.Organization;
 import android.provider.ContactsContract.CommonDataKinds.Phone;
-import androidx.collection.ArrayMap;
 import android.text.TextUtils;
+
+import androidx.collection.ArrayMap;
 
 import com.android.messaging.Factory;
 import com.android.messaging.R;

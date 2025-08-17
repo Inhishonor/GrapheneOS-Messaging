@@ -22,10 +22,10 @@ import android.view.View;
 import android.view.accessibility.AccessibilityEvent;
 import android.view.accessibility.AccessibilityManager;
 
+import androidx.annotation.Nullable;
+
 import com.android.messaging.Factory;
 import com.android.messaging.R;
-
-import androidx.annotation.Nullable;
 
 public class AccessibilityUtil {
     public static String sContentDescriptionDivider;

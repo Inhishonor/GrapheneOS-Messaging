@@ -23,23 +23,23 @@ import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;
 import android.database.Cursor;
 import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 
 import androidx.fragment.app.DialogFragment;
 import androidx.loader.app.LoaderManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
 
 import com.android.messaging.R;
+import com.android.messaging.datamodel.DataModel;
 import com.android.messaging.datamodel.binding.Binding;
 import com.android.messaging.datamodel.binding.BindingBase;
 import com.android.messaging.datamodel.data.ConversationListData;
-import com.android.messaging.datamodel.data.ConversationListItemData;
 import com.android.messaging.datamodel.data.ConversationListData.ConversationListDataListener;
+import com.android.messaging.datamodel.data.ConversationListItemData;
 import com.android.messaging.ui.ListEmptyView;
-import com.android.messaging.datamodel.DataModel;
 
 /**
  * Allow user to pick conversation to which an incoming attachment will be shared.

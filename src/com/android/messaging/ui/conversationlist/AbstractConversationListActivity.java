@@ -23,8 +23,11 @@ import android.content.Intent;
 import android.content.res.Resources;
 import android.net.Uri;
 import android.os.Bundle;
-import androidx.annotation.NonNull;
 import android.view.View;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
 
 import com.android.messaging.R;
 import com.android.messaging.datamodel.action.DeleteConversationAction;
@@ -47,9 +50,6 @@ import com.android.messaging.util.UiUtils;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
-
-import androidx.annotation.Nullable;
-import androidx.fragment.app.Fragment;
 
 /**
  * Base class for many Conversation List activities. This will handle the common actions of multi

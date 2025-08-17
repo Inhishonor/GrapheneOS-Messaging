@@ -30,11 +30,11 @@ import android.view.ViewGroupOverlay;
 import android.view.ViewOverlay;
 import android.widget.FrameLayout;
 
+import androidx.core.view.ViewCompat;
+
 import com.android.messaging.R;
 import com.android.messaging.util.ImageUtils;
 import com.android.messaging.util.UiUtils;
-
-import androidx.core.view.ViewCompat;
 
 /**
  * <p>

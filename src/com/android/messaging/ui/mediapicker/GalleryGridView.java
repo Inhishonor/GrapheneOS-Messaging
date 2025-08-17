@@ -26,6 +26,8 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 
+import androidx.collection.ArrayMap;
+
 import com.android.messaging.R;
 import com.android.messaging.datamodel.binding.BindingBase;
 import com.android.messaging.datamodel.binding.ImmutableBindingRef;
@@ -40,8 +42,6 @@ import com.android.messaging.util.LogUtil;
 
 import java.util.Iterator;
 import java.util.Map;
-
-import androidx.collection.ArrayMap;
 
 /**
  * Shows a list of galley mediae from external storage in a GridView with multi-select capabilities,

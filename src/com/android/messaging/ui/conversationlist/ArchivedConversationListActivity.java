@@ -20,10 +20,10 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import androidx.appcompat.app.ActionBar;
+
 import com.android.messaging.R;
 import com.android.messaging.util.DebugUtils;
-
-import androidx.appcompat.app.ActionBar;
 
 public class ArchivedConversationListActivity extends AbstractConversationListActivity {
 

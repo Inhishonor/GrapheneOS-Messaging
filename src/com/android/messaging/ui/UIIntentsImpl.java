@@ -35,6 +35,11 @@ import android.provider.MediaStore;
 import android.provider.Telephony;
 import android.text.TextUtils;
 
+import androidx.annotation.Nullable;
+import androidx.core.app.TaskStackBuilder;
+import androidx.fragment.app.Fragment;
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
+
 import com.android.ex.photo.Intents.PhotoViewIntentBuilder;
 import com.android.messaging.R;
 import com.android.messaging.datamodel.ConversationImagePartsView;
@@ -64,11 +69,6 @@ import com.android.messaging.util.ConversationIdSet;
 import com.android.messaging.util.LogUtil;
 import com.android.messaging.util.UiUtils;
 import com.android.messaging.util.UriUtil;
-
-import androidx.annotation.Nullable;
-import androidx.core.app.TaskStackBuilder;
-import androidx.fragment.app.Fragment;
-import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 /**
  * A central repository of Intents used to start activities.

@@ -21,9 +21,10 @@ import android.content.ContentUris;
 import android.content.UriMatcher;
 import android.net.Uri;
 import android.provider.Telephony.Mms;
-import androidx.collection.SimpleArrayMap;
 import android.util.Log;
 import android.util.SparseArray;
+
+import androidx.collection.SimpleArrayMap;
 
 import java.util.HashSet;
 

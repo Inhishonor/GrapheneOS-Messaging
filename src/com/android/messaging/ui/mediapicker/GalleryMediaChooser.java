@@ -23,7 +23,6 @@ import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.database.MatrixCursor;
 import android.database.MergeCursor;
-import androidx.appcompat.app.ActionBar;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -31,12 +30,14 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
+import androidx.appcompat.app.ActionBar;
+
 import com.android.messaging.Factory;
 import com.android.messaging.R;
 import com.android.messaging.datamodel.data.GalleryGridItemData;
 import com.android.messaging.datamodel.data.MediaPickerData;
-import com.android.messaging.datamodel.data.MessagePartData;
 import com.android.messaging.datamodel.data.MediaPickerData.MediaPickerDataListener;
+import com.android.messaging.datamodel.data.MessagePartData;
 import com.android.messaging.datamodel.data.PendingAttachmentData;
 import com.android.messaging.ui.UIIntents;
 import com.android.messaging.ui.mediapicker.DocumentImagePicker.SelectionListener;

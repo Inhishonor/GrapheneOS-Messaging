@@ -19,8 +19,9 @@ package com.android.messaging.mmslib.pdu;
 
 import android.content.ContentResolver;
 import android.content.Context;
-import androidx.collection.SimpleArrayMap;
 import android.text.TextUtils;
+
+import androidx.collection.SimpleArrayMap;
 
 import java.io.ByteArrayOutputStream;
 import java.io.FileNotFoundException;

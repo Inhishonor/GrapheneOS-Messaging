@@ -37,6 +37,8 @@ import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import androidx.appcompat.app.ActionBar;
+
 import com.android.messaging.Factory;
 import com.android.messaging.R;
 import com.android.messaging.datamodel.binding.Binding;
@@ -73,8 +75,6 @@ import com.android.messaging.util.UriUtil;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
-
-import androidx.appcompat.app.ActionBar;
 
 /**
  * This view contains the UI required to generate and send messages.

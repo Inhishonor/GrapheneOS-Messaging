@@ -21,7 +21,6 @@ import android.database.Cursor;
 import com.android.messaging.R;
 import com.android.messaging.datamodel.data.ConversationListItemData.ConversationListViewColumns;
 import com.android.messaging.util.Assert;
-import com.android.messaging.util.NotificationChannelUtil;
 
 public class PeopleOptionsItemData {
     public static final String[] PROJECTION = {

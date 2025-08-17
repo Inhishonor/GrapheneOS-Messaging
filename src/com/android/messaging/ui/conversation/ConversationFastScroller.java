@@ -33,15 +33,15 @@ import android.view.ViewGroupOverlay;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.android.messaging.R;
-import com.android.messaging.datamodel.data.ConversationMessageData;
-import com.android.messaging.ui.ConversationDrawables;
-import com.android.messaging.util.Dates;
-
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.RecyclerView.AdapterDataObserver;
 import androidx.recyclerview.widget.RecyclerView.ViewHolder;
+
+import com.android.messaging.R;
+import com.android.messaging.datamodel.data.ConversationMessageData;
+import com.android.messaging.ui.ConversationDrawables;
+import com.android.messaging.util.Dates;
 
 /**
  * Adds a "fast-scroll" bar to the conversation RecyclerView that shows the current position within

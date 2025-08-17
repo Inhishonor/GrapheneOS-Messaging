@@ -17,8 +17,9 @@
 
 package com.android.messaging.mmslib.util;
 
-import androidx.collection.SimpleArrayMap;
 import android.util.Log;
+
+import androidx.collection.SimpleArrayMap;
 
 public abstract class AbstractCache<K, V> {
     private static final String TAG = "AbstractCache";

@@ -26,6 +26,9 @@ import android.os.Handler;
 import android.os.Looper;
 import android.telephony.CarrierConfigManager;
 
+import androidx.appcompat.mms.CarrierConfigValuesLoader;
+import androidx.appcompat.mms.MmsManager;
+
 import com.android.messaging.datamodel.DataModel;
 import com.android.messaging.receiver.SmsReceiver;
 import com.android.messaging.sms.BugleUserAgentInfoLoader;
@@ -43,9 +46,6 @@ import com.google.common.annotations.VisibleForTesting;
 
 import java.io.File;
 import java.lang.Thread.UncaughtExceptionHandler;
-
-import androidx.appcompat.mms.CarrierConfigValuesLoader;
-import androidx.appcompat.mms.MmsManager;
 
 /**
  * The application object

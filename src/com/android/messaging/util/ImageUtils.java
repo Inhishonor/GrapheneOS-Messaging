@@ -35,6 +35,8 @@ import android.provider.MediaStore;
 import android.text.TextUtils;
 import android.view.View;
 
+import androidx.annotation.Nullable;
+
 import com.android.messaging.Factory;
 import com.android.messaging.datamodel.MediaScratchFileProvider;
 import com.android.messaging.datamodel.MessagingContentProvider;
@@ -52,8 +54,6 @@ import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Arrays;
-
-import androidx.annotation.Nullable;
 
 public class ImageUtils {
     private static final String TAG = LogUtil.BUGLE_TAG;

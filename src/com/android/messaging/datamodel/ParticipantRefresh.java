@@ -25,6 +25,8 @@ import android.provider.ContactsContract.CommonDataKinds.Phone;
 import android.telephony.SubscriptionInfo;
 import android.text.TextUtils;
 
+import androidx.collection.ArrayMap;
+
 import com.android.messaging.Factory;
 import com.android.messaging.datamodel.DatabaseHelper.ConversationColumns;
 import com.android.messaging.datamodel.DatabaseHelper.ConversationParticipantsColumns;
@@ -48,8 +50,6 @@ import java.util.Locale;
 import java.util.Objects;
 import java.util.Set;
 import java.util.concurrent.atomic.AtomicBoolean;
-
-import androidx.collection.ArrayMap;
 
 /**
  * Utility class for refreshing participant information based on matching contact. This updates
